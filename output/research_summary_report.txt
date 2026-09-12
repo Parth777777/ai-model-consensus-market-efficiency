@@ -1,0 +1,38 @@
+
+=====================================================================================
+PANEL A: AI CONSENSUS AGREEMENT SCORE SUMMARY STATISTICS
+=====================================================================================
+Category        | N (Obs)    | Mean Score   | Std Dev    | Median     | IQR (25-75%)  
+-------------------------------------------------------------------------------------
+Large-Cap       | 480        | 0.4982       | 0.0875     | 0.4453     | 0.41 - 0.58
+Small-Cap       | 480        | 0.5136       | 0.0946     | 0.5526     | 0.42 - 0.58
+
+=====================================================================================
+PANEL B: FORWARD 3-MONTH RETURNS BY AI AGREEMENT TERCILE
+=====================================================================================
+Category     | Bucket           | Mean 3M Ret    | Std Error    | N (Stocks)
+-------------------------------------------------------------------------------------
+Large-Cap    | High Agreement   |      +6.49%   |     1.38%   | 148       
+Large-Cap    | Low Agreement    |      +6.70%   |     1.51%   | 150       
+Large-Cap    | Mid Agreement    |      +5.52%   |     1.26%   | 152       
+Small-Cap    | High Agreement   |      +6.45%   |     1.81%   | 126       
+Small-Cap    | Low Agreement    |      +7.82%   |     1.79%   | 139       
+Small-Cap    | Mid Agreement    |      +7.18%   |     1.43%   | 140       
+
+=====================================================================================
+PANEL C: STATISTICAL HYPOTHESIS TESTS (LOW vs. HIGH AGREEMENT RETURN SPREAD)
+=====================================================================================
+Sample Group    | Low Agree Mean   | High Agree Mean  | Spread (Low-High)  | t-stat     | p-value    | Sig (5%)
+---------------------------------------------------------------------------------------------------------
+All Equities    | +7.38%           | +6.52%           | +0.87%             | +0.542     | 0.5877     | No      
+Large-Cap       | +6.70%           | +6.49%           | +0.21%             | +0.103     | 0.9178     | No      
+Small-Cap       | +7.82%           | +6.45%           | +1.37%             | +0.538     | 0.5910     | No      
+=========================================================================================================
+
+Generated Figures:
+- fig1_agreement_histogram_largecap: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig1_agreement_histogram_largecap.png
+- fig2_agreement_histogram_overlay: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig2_agreement_histogram_overlay.png
+- fig3_forward_returns_by_bucket: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig3_forward_returns_by_bucket.png
+- fig4_cumulative_returns: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig4_cumulative_returns.png
+- fig5_ai_vs_analyst_dispersion: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig5_ai_vs_analyst_dispersion.png
+- fig6_rolling_consensus_index: C:\Users\parth\OneDrive\Desktop\EMH FOLDER FEC\output\figures\fig6_rolling_consensus_index.png
